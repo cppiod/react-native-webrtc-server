@@ -1,4 +1,4 @@
-{
+  {
   "name": "react-native-webrtc-server",
   "version": "0.0.1",
   "description": "react-native-webrtc server",
@@ -11,7 +11,7 @@
     "open": "heroku open",
     "logs": "heroku logs --tail",
     "deploy": "git push heroku master",
-    "start": "LOCAL=TRUE node app.js"
+    "start": "LOCAL=FALSE node app.js"
   },
   "dependencies": {
     "express": "^4.11.2",
